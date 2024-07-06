@@ -85,7 +85,7 @@ export default function Navbar() {
             HT-data
           </Link>
           
-          {auth.user && auth.user === "ranjan.kudesia@gmail.com" && (
+          {auth.user && auth.user === "jmcelectric24@gmail.com" && (
             <Link
               className={clsx("font-semibold text-white rounded p-2 hover:bg-orange-600", {
                 "bg-orange-600": segment === "sign-up",
@@ -167,7 +167,7 @@ export default function Navbar() {
             HT-data
           </Link>
           
-          {auth.user && auth.user === "ranjan.kudesia@gmail.com" && (
+          {auth.user && auth.user === "jmcelectric24@gmail.com" && (
             <Link
               className={clsx("block font-semibold text-white rounded p-2 mb-2", {
                 "bg-orange-600": segment === "sign-up",
